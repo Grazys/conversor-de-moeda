@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de Moeda</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>&#x1F50D melhorcâmbio<span>.com</span></h1>
+            <p>Realize a conversão dos valores de Dólar e Euro</p>
+                <div class="formulario">
+                    <label for="dinheiro">&#x1F4B2</label><input placeholder="Insira o valor em Real" type="number" id="valor1">
+                    <button type="submit" onclick="converter()">Converter para Dólar</button>
+                </div>
+
+                <div class="formulario">
+                    <label for="dinheiro">&#x1F4B2</label><input placeholder="Insira o valor em Real" type="number" id="valor">
+                    <button type="submit" onclick="converter1()">Converter para Euro</button>
+                </div>
+
+                <h2 placeholder="O valor é:" id="valorConvertido"></h2>
+        </div>
+        <script src="assets/script.js"></script>
+    </body>
+</html>

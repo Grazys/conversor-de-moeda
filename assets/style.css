@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #1346AA;
+    --cor2: #64B86C;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    text-rendering: optimizeLegibility;
+    background-color: black;
+    color: white;
+}
+
+div.container {
+    max-width: 960px;
+    min-width: 400px;
+    margin: auto;
+
+    text-align: center;
+    padding-top: 20Vh;
+    line-height: 70px;
+}
+
+div.container h1{
+    font-family: 'Secular One', sans-serif;
+    font-weight: bolder;
+    font-size: 3.0em;
+    color: var(--cor1);
+}
+
+div.container h1 span {
+    color: var(--cor2);
+    font-weight: lighter;
+}
+
+div.container p {
+    color: var(--cor2);
+    font-size: 1.2em;
+}
+
+div.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+div.container label {
+    font-size: 30px;
+}
+
+div.container input {
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+}
+
+div.container button {
+    border-radius: 15px;
+    padding: 10px;
+    width: 170px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--cor2);
+    margin-left: 15px;
+}
+
+div.container button:hover {
+    background-color: #235a29;
+}
+
